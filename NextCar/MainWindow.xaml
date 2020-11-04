@@ -1,0 +1,20 @@
+﻿<Window x:Class="NextCar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NextCar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="358.754" Width="627.158" UseLayoutRounding="False">
+    <Grid>
+        <Label x:Name="AlblAccu" Content="Accu" HorizontalAlignment="Left" Margin="58,215,0,0" VerticalAlignment="Top" Background="White"/>
+        <Label x:Name="LblDoor" Content="Door" HorizontalAlignment="Left" Margin="56,264,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.755,0.617"/>
+        <Button x:Name="AccuButton" Content="OFF" HorizontalAlignment="Left" Margin="126,218,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.2,0.844" Click="OnAccuButtonClikced"/>
+        <Button x:Name="DoorButton" Content="OFF" HorizontalAlignment="Left" Margin="126,268,0,0" VerticalAlignment="Top" Width="75" Click="OnDoorButtonClicked" />
+        <Label x:Name="AccuState" Content="No Power" HorizontalAlignment="Left" Margin="241,214,0,0" VerticalAlignment="Top" Foreground="#FF8B8B8B"/>
+        <Label x:Name="DoorState" Content="Door is unlocked" HorizontalAlignment="Left" Margin="243,266,0,0" VerticalAlignment="Top" Foreground="#FF8B8B8B"/>
+        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Height="76" Margin="401,214,0,0" VerticalAlignment="Top" Click="OnStartButtonClicked" Width="162" Foreground="White" Background="#FFF12F2F" FontSize="18"/>
+        <Label Content="DASHBOARD" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" Margin="241,89,0,0"/>
+
+    </Grid>
+</Window>
